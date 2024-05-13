@@ -1,7 +1,7 @@
     if game.PlaceId == 16389398622 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/test1488",true))()
 
     elseif game.PlaceId == 16389395869 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/test1488",true))()
     
 end
