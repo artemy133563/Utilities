@@ -1,12 +1,13 @@
 -- Gui
--- Version: 1.0
+-- Version: 1.1
+-- Updated 14.05.25
 
 local GuiScreen = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageButton")
 local ImageLabel = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
 local LoadingImage = Instance.new("ImageLabel")
-local tick = Instance.new("ImageLabel")
+local Loading = Instance.new("ImageLabel")
 local Notsupport = Instance.new("ImageLabel")
 local CheckingGame = Instance.new("TextLabel")
 local Final = Instance.new("Frame")
@@ -22,7 +23,7 @@ Frame.Parent = GuiScreen
 Frame.Active = false
 Frame.BackgroundColor3 = Color3.fromRGB(11, 19, 31)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.5, -100, 0.9, -25)
+Frame.Position = UDim2.new(0.5, -100, 0.9, -45)
 Frame.Selectable = false
 Frame.Size = UDim2.new(0, 0, 0, 0)
 
@@ -46,16 +47,16 @@ LoadingImage.ZIndex = 3
 LoadingImage.Image = "http://www.roblox.com/asset/?id=12072026346"
 LoadingImage.ImageColor3 = Color3.fromRGB(255,255,255)
 
-tick.Name = "tick"
-tick.Parent = ImageLabel
-tick.BackgroundColor3 = Color3.fromRGB(0, 136, 255)
-tick.BackgroundTransparency = 1.000
-tick.Position = UDim2.new(0.365899109, 0, 0.0831687897, 0)
-tick.Size = UDim2.new(0, 44, 0, 44)
-tick.Visible = false
-tick.ZIndex = 2
-tick.Image = "http://www.roblox.com/asset/?id=12072072258"
-tick.ImageColor3 = Color3.fromRGB(255,255,255)
+Loading.Name = "Loading"
+Loading.Parent = ImageLabel
+Loading.BackgroundColor3 = Color3.fromRGB(0, 136, 255)
+Loading.BackgroundTransparency = 1.000
+Loading.Position = UDim2.new(0.365899109, 0, 0.0831687897, 0)
+Loading.Size = UDim2.new(0, 44, 0, 44)
+Loading.Visible = false
+Loading.ZIndex = 2
+Loading.Image = "http://www.roblox.com/asset/?id=12072072258"
+Loading.ImageColor3 = Color3.fromRGB(255,255,255)
 
 Notsupport.Name = "Notsupport"
 Notsupport.Parent = ImageLabel
@@ -119,7 +120,7 @@ local function ScriptLast() -- LocalScript
 
 		script.Parent.ImageLabel.LoadingImage.Visible = false
 
-		script.Parent.ImageLabel.tick.Visible = true
+		script.Parent.ImageLabel.Loading.Visible = true
 
 		wait(1)
 
