@@ -111,12 +111,12 @@ local function ScriptLast() -- LocalScript
 	loadstring(game:HttpGet("https://pastefy.app/J8dNdJc7/raw",true))()
 
 	if game.CoreGui.GuiScreen.Frame.Final.BackgroundTransparency == 1 then
-		script.Parent.ImageLabel.CheckingGame.Text = "Game Id Founded"
+		script.Parent.ImageLabel.CheckingGame.Text = "Game Supported!!!"
 
 		wait(2)
 		script.Parent.ImageLabel.CheckingGame.Text = "Loading Script..."
 
-		wait(1)
+		wait(4)
 
 		script.Parent.ImageLabel.LoadingImage.Visible = false
 
@@ -129,7 +129,7 @@ local function ScriptLast() -- LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ScriptHub",true))()
 
 	else
-		script.Parent.ImageLabel.CheckingGame.Text = "Game Id Not SUPPORT!"
+		script.Parent.ImageLabel.CheckingGame.Text = "Game Not SUPPORTED!"
 		script.Parent.ImageLabel.LoadingImage.Visible = false
 		script.Parent.ImageLabel.Notsupport.Visible = true
 		wait(3)
