@@ -126,7 +126,7 @@ local function ScriptLast() -- LocalScript
 
 		GuiScreen:Destroy()
         --loadstring
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ScriptHub",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/GamesIds",true))()
 
 	else
 		script.Parent.ImageLabel.CheckingGame.Text = "Game Not SUPPORTED!"
