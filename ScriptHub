@@ -1,6 +1,6 @@
 -- Gui
 -- Version: 1.1
--- Updated 14.05.25
+-- Updated 15.05.25
 
 local GuiScreen = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageButton")
@@ -126,7 +126,7 @@ local function ScriptLast() -- LocalScript
 
 		GuiScreen:Destroy()
         --loadstring
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/GamesIds",true))()
+		loadstring(game:HttpGet("https://pastefy.app/ewKFJB9W/raw",true))()
 
 	else
 		script.Parent.ImageLabel.CheckingGame.Text = "Game Not SUPPORTED!"
