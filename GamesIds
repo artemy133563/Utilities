@@ -1,0 +1,37 @@
+    if game.PlaceId == 16389398622 then --AdustyTrip
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/LiteVersion",true))()
+
+    elseif game.PlaceId == 16389395869 then --AdustyTrip
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/LiteVersion",true))()
+
+    elseif game.PlaceId == 16715919588 then --LimitedCatchers 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/LimitedCatchers",true))()
+
+    elseif game.PlaceId == 16657222779 then --CraftSnake2048
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/CraftSnake2048",true))()
+    elseif game.PlaceId == 5972698540 then --EasyObby
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/EasyObby",true))()
+
+    elseif game.PlaceId == 5904703625 then --FNAF NEW SKIN ROLE PLAY NEW DOG UGC on store - !!
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/FNAFNEWSKINROLE",true))()
+
+    elseif game.PlaceId == 15536298749 then -- Littlest Pet Shop
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/LittlestPetShop",true))()
+
+    elseif game.PlaceId == 16364220821 then -- Rat Clickers Ugc
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/RatClickersUGC",true))()
+
+    elseif game.PlaceId == 16105430118 then --Tap For Ugc
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/TapForUGC",true))()
+
+
+    elseif game.PlaceId == 9129288160 then --TommyPlay
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/TommyPlay",true))()
+    
+    elseif game.PlaceId == 17170833688 then --Watermelon River
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/Watermelon",true))()
+    
+    elseif game.PlaceId == 16147568310 then --БургерЛенд
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/БургерЛенд",true))()
+		
+end
