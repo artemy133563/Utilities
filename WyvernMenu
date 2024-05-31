@@ -82,7 +82,7 @@ local function MakeDraggable(topbarobject, object)
 end
 
 local Discord = Instance.new("ScreenGui")
-Discord.Name = "💋❀  ❀💋"
+Discord.Name = "WyvernMenuGui"
 Discord.Parent = cloneref(game:GetService("CoreGui"))
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Discord.DisplayOrder = 9999999999
