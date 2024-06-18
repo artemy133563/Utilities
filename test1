@@ -1616,7 +1616,7 @@ Discord.DisplayOrder = 9999999999
             ServerBtnCorner.CornerRadius = UDim.new(1, 0)
             ServerBtnCorner.Name = "ServerCorner"
             ServerBtnCorner.Parent = Server 
-            ServerIco.Name = "ServerIco"
+            ServerIco.Name = "ServerIco" 
             ServerIco.Parent = Server
             ServerIco.AnchorPoint = Vector2.new(0.5, 0.5)
             ServerIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1792,6 +1792,7 @@ Discord.DisplayOrder = 9999999999
             ServerChannelHolderPadding.Name = "ServerChannelHolderPadding"
             ServerChannelHolderPadding.Parent = ServerChannelHolder
             ServerChannelHolderPadding.PaddingLeft = UDim.new(0, 9)
+            ServerChannelHolder.Visible = false
             ServerChannelHolder.MouseEnter:Connect(
                 function()
                     ServerChannelHolder.ScrollBarImageTransparency = 0
