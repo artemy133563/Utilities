@@ -2276,7 +2276,7 @@ Discord.DisplayOrder = 9999999999
                     Zip.BackgroundTransparency = 1
                     Zip.BorderColor3 = Color3.fromRGB(255, 255, 255)
                     Zip.Position = UDim2.new((start or 0) / max, -6, -0.644999981, 0)
-                    Zip.Size = UDim2.new(0, 10, 0, 18)
+                    Zip.Size = UDim2.new(0, 27, 0, 18)
                     Zip.Image = "http://www.roblox.com/asset/?id=18109956359"
                     ZipCorner.CornerRadius = UDim.new(0, 3)
                     ZipCorner.Name = "ZipCorner"
@@ -2789,7 +2789,7 @@ Discord.DisplayOrder = 9999999999
                     ColorSelection.BackgroundTransparency = 1
                     ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
                     ColorSelection.Size = UDim2.new(0, 18, 0, 18)
-                    ColorSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+                    ColorSelection.Image = "http://www.roblox.com/asset/?id=18110392941"
                     ColorSelection.ScaleType = Enum.ScaleType.Fit
                     Hue.Name = "Hue"
                     Hue.Parent = ColorpickerFrame
@@ -2821,7 +2821,7 @@ Discord.DisplayOrder = 9999999999
                     HueSelection.BackgroundTransparency = 1
                     HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
                     HueSelection.Size = UDim2.new(0, 18, 0, 18)
-                    HueSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+                    HueSelection.Image = "http://www.roblox.com/asset/?id=18110392941"
                     PresetClr.Name = "PresetClr"
                     PresetClr.Parent = ColorpickerFrame
                     PresetClr.BackgroundColor3 = preset
