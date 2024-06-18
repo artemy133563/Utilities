@@ -2179,7 +2179,7 @@ Discord.DisplayOrder = 9999999999
                                 TweenService:Create(
                                     ToggleFrame,
                                     TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                                    {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
+                                    {ImageColor3 = Color3.fromRGB(255, 255, 255)}
                                 ):Play()
                                 ToggleFrameCircle:TweenPosition(
                                     UDim2.new(0.234999999, -5, 0.133000001, 0),
