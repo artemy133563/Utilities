@@ -2122,10 +2122,14 @@ Discord.DisplayOrder = 9999999999
                     ToggleFrameCorner.Parent = ToggleFrame
                     ToggleFrameCircle.Name = "ToggleFrameCircle"
                     ToggleFrameCircle.Parent = ToggleFrame
+                    ToggleFrameCircle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+                    ToggleFrameCircle.BorderSizePixel = 0
+                    ToggleFrameCircle.BackgroundTransparency = 1
                     ToggleFrameCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     ToggleFrameCircle.Position = UDim2.new(0.234999999, -5, 0.133000001, 0)
                     ToggleFrameCircle.Size = UDim2.new(0, 15, 0, 15)
                     ToggleFrameCircle.Image = "http://www.roblox.com/asset/?id=6035067836"
+                    ToggleFrameCircle.ClipsDescendants = true
                     ToggleFrameCircleCorner.CornerRadius = UDim.new(1, 0) 
                     ToggleFrameCircleCorner.Name = "ToggleFrameCircleCorner"
                     ToggleFrameCircleCorner.Parent = ToggleFrameCircle
