@@ -3074,7 +3074,7 @@ Discord.DisplayOrder = 9999999999
                     KeybindText.Font = Enum.Font.Gotham
                     KeybindText.Text = presetbind.Name
                     KeybindText.TextColor3 = Color3.fromRGB(255, 255, 255)
-                    KeybindText.TextSize = 14
+                    KeybindText.TextSize = 30
                     KeybindText.TextXAlignment = Enum.TextXAlignment.Right
                     Keybind.MouseButton1Click:Connect(
                         function()
