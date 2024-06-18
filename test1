@@ -128,7 +128,7 @@ do
             BBBB.AnchorPoint = Vector2.new(0.5, 0.5)
             BBBB.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
             BBBB.BorderSizePixel = 0
-            BBBB.BackgroundTransparency = 0.5
+            BBBB.BackgroundTransparency = 0.6
             BBBB.ClipsDescendants = true
             BBBB.Position = UDim2.new(0.5, 0, 0.5, 0)
             BBBB.Size = UDim2.new(0, 681, 0, 396)
@@ -2137,7 +2137,7 @@ do
                         Icon.BorderColor3 = Color3.fromRGB(255, 255, 255)
                         Icon.Position = UDim2.new(0, 8, 0, 8)
                         Icon.Size = UDim2.new(0, 13, 0, 13)
-                        Icon.Image = "http://www.roblox.com/asset/?id=6035047409" 
+                        Icon.Image = "http://www.roblox.com/asset/?id=18108404962"  
                         Icon.ImageColor3 = Color3.fromRGB(0, 0, 30)
                         Toggle.MouseButton1Click:Connect(
                             function()
@@ -2164,7 +2164,7 @@ do
                                         TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                                         {ImageTransparency = 1}
                                     ):Play()
-                                    Icon.Image = "http://www.roblox.com/asset/?id=6023426926"
+                                    Icon.Image = "http://www.roblox.com/asset/?id=18108425306"
                                     wait(0.1)
                                     TweenService:Create(
                                         Icon,
