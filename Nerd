@@ -175,7 +175,7 @@ Discord.DisplayOrder = 9999999999
         CloseIcon.BackgroundTransparency = 1
         CloseIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
         CloseIcon.Size = UDim2.new(0, 17, 0, 17)
-        CloseIcon.Image = "http://www.roblox.com/asset/?id=6035047409"
+        CloseIcon.Image = "http://www.roblox.com/asset/?id=18110757343"
         CloseIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
         MinimizeBtn.Name = "MinimizeButton"
         MinimizeBtn.Parent = TopFrame
@@ -195,7 +195,7 @@ Discord.DisplayOrder = 9999999999
         MinimizeIcon.BackgroundTransparency = 1
         MinimizeIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
         MinimizeIcon.Size = UDim2.new(0, 17, 0, 17)
-        MinimizeIcon.Image = "http://www.roblox.com/asset/?id=6035067836" 
+        MinimizeIcon.Image = "http://www.roblox.com/asset/?id=18110714885" 
         MinimizeIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
         ServersHolder.Name = "ServersHolder"
         ServersHolder.Parent = TopFrameHolder
@@ -3062,7 +3062,7 @@ Discord.DisplayOrder = 9999999999
                     KeybindTitle.Size = UDim2.new(0, 200, 0, 30)
                     KeybindTitle.Font = Enum.Font.Gotham
                     KeybindTitle.Text = text
-                    KeybindTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+                    KeybindTitle.TextColor3 = Color3.fromRGB(255, 255, 255) 
                     KeybindTitle.TextSize = 14
                     KeybindTitle.TextXAlignment = Enum.TextXAlignment.Left
                     KeybindText.Name = "KeybindText"
