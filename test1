@@ -1648,7 +1648,7 @@ Discord.DisplayOrder = 9999999999
             local ChannelTitle = Instance.new("TextLabel")
             local ChannelContentFrame = Instance.new("Frame")
             local GlowChannel = Instance.new("ImageLabel")
-            local ServerChannelHolder = Instance.new("ScrollingFrame")
+            local ServerChannelHolder = Instance.new("ImageLabel")
             local ServerChannelHolderLayout = Instance.new("UIListLayout")
             local ServerChannelHolderPadding = Instance.new("UIPadding")
             ServerFrame.Name = "ServerFrame"
@@ -1785,6 +1785,7 @@ Discord.DisplayOrder = 9999999999
             ServerChannelHolder.ScrollBarThickness = 4
             ServerChannelHolder.ScrollBarImageColor3 = Color3.fromRGB(18, 19, 21)
             ServerChannelHolder.ScrollBarImageTransparency = 1
+            ServerChannelHolder.Image = ""
             ServerChannelHolderLayout.Name = "ServerChannelHolderLayout"
             ServerChannelHolderLayout.Parent = ServerChannelHolder
             ServerChannelHolderLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -1792,7 +1793,6 @@ Discord.DisplayOrder = 9999999999
             ServerChannelHolderPadding.Name = "ServerChannelHolderPadding"
             ServerChannelHolderPadding.Parent = ServerChannelHolder
             ServerChannelHolderPadding.PaddingLeft = UDim.new(0, 9)
-            ServerChannelHolder.Visible = false
             ServerChannelHolder.MouseEnter:Connect(
                 function()
                     ServerChannelHolder.ScrollBarImageTransparency = 0
