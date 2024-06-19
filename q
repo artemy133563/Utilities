@@ -2489,7 +2489,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             ArrowImg.BackgroundTransparency = 1
                             ArrowImg.Position = UDim2.new(1.84974098, 0, 0.167428851, 0)
                             ArrowImg.Size = UDim2.new(0, 22, 0, 22)
-                            ArrowImg.Image = "http://www.roblox.com/asset/?id=18118807541" 
+                            ArrowImg.Image = "http://www.roblox.com/asset/?id=18118854086" 
                             ArrowImg.ImageColor3 = Color3.fromRGB(212, 212, 212)
                             DropdownFrameBtn.Name = "DropdownFrameBtn"
                             DropdownFrameBtn.Parent = DropdownFrame
