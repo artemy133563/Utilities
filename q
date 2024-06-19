@@ -2179,7 +2179,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                             TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                                             {ImageTransparency = 1}
                                         ):Play()
-                                        Icon.Image = "http://www.roblox.com/asset/?id=18118369894"
+                                        Icon.Image = "http://www.roblox.com/asset/?id=18118482242"
                                         wait(0.1)
                                         TweenService:Create(
                                             Icon,
