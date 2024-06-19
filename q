@@ -152,13 +152,13 @@ if players.LocalPlayer.Name == whitelist[1] then
                 TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
                 Title.Name = "Title"
                 Title.Parent = TopFrame
-                Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                Title.BackgroundColor3 = Color3.fromRGB(0, 0, )
                 Title.BackgroundTransparency = 0.6
                 Title.Position = UDim2.new(0, 1, 0, 0)
                 Title.Size = UDim2.new(0, 700, 0, 20)
                 Title.Font = Enum.Font.ArimoBold
                 Title.Text = text
-                Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+                Title.TextColor3 = Color3.fromRGB(0, 0, 200)
                 Title.TextSize = 25
                 Title.TextXAlignment = Enum.TextXAlignment.Left
                 CloseBtn.Name = "CloseBtn"
@@ -172,7 +172,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 CloseBtn.TextColor3 = Color3.fromRGB(255, 255, 255) 
                 CloseBtn.TextSize = 14
                 CloseBtn.BorderSizePixel = 0
-                CloseBtn.AutoButtonColor = false
+                CloseBtn.AutoButtonColor = false 
                 CloseIcon.Name = "CloseIcon"
                 CloseIcon.Parent = CloseBtn
                 CloseIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -458,7 +458,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 TextLabel.Parent = CloseSettingsBtn
                 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 TextLabel.BackgroundTransparency = 1
-                TextLabel.Position = UDim2.new(-0.0666666701, 0, 1.06666672, 0)
+                TextLabel.Position = UDim2.new(-0.0666666701, 0, 1.06666672, 0) 
                 TextLabel.Size = UDim2.new(0, 34, 0, 22)
                 TextLabel.Font = Enum.Font.GothamSemibold
                 TextLabel.Text = "rightctrl"
@@ -2152,7 +2152,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             Icon.BorderColor3 = Color3.fromRGB(255, 255, 255)
                             Icon.Position = UDim2.new(0, 8, 0, 8)
                             Icon.Size = UDim2.new(0, 13, 0, 13)
-                            Icon.Image = "http://www.roblox.com/asset/?id=18108404962" 
+                            Icon.Image = "http://www.roblox.com/asset/?id=18118404935"  
                             Toggle.MouseButton1Click:Connect(
                                 function()
                                     if (toggled == false) then
@@ -2178,7 +2178,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                             TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                                             {ImageTransparency = 1}
                                         ):Play()
-                                        Icon.Image = "http://www.roblox.com/asset/?id=18108425306"
+                                        Icon.Image = "http://www.roblox.com/asset/?id=18118369894"
                                         wait(0.1)
                                         TweenService:Create(
                                             Icon,
@@ -2208,7 +2208,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                             TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                                             {ImageTransparency = 1}
                                         ):Play()
-                                        Icon.Image = "http://www.roblox.com/asset/?id=18108404962"
+                                        Icon.Image = "http://www.roblox.com/asset/?id=18118404935"
                                         wait(0.1)
                                         TweenService:Create(
                                             Icon,
