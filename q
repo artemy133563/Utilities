@@ -152,7 +152,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
                 Title.Name = "Title"
                 Title.Parent = TopFrame
-                Title.BackgroundColor3 = Color3.fromRGB(0, 0, )
+                Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                 Title.BackgroundTransparency = 0.6
                 Title.Position = UDim2.new(0, 1, 0, 0)
                 Title.Size = UDim2.new(0, 700, 0, 20)
@@ -172,7 +172,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 CloseBtn.TextColor3 = Color3.fromRGB(255, 255, 255) 
                 CloseBtn.TextSize = 14
                 CloseBtn.BorderSizePixel = 0
-                CloseBtn.AutoButtonColor = false 
+                CloseBtn.AutoButtonColor = false
                 CloseIcon.Name = "CloseIcon"
                 CloseIcon.Parent = CloseBtn
                 CloseIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -2152,7 +2152,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             Icon.BorderColor3 = Color3.fromRGB(255, 255, 255)
                             Icon.Position = UDim2.new(0, 8, 0, 8)
                             Icon.Size = UDim2.new(0, 13, 0, 13)
-                            Icon.Image = "http://www.roblox.com/asset/?id=18118404935"  
+                            Icon.Image = "http://www.roblox.com/asset/?id=18118404935" 
                             Toggle.MouseButton1Click:Connect(
                                 function()
                                     if (toggled == false) then
