@@ -1107,7 +1107,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                         NotificationHolder.Visible = true
                         TweenService:Create(
                             NotificationHolder,
-                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), 
                             {BackgroundTransparency = 0.2}
                         ):Play()
                         local UserChange = Instance.new("Frame")
@@ -2273,7 +2273,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             SliderFrameCorner.Parent = SliderFrame
                             CurrentValueFrame.Name = "CurrentValueFrame"
                             CurrentValueFrame.Parent = SliderFrame
-                            CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+                            CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
                             CurrentValueFrame.Size = UDim2.new((start or 0) / max, 0, 0, 8)
                             CurrentValueFrameCorner.Name = "CurrentValueFrameCorner"
                             CurrentValueFrameCorner.Parent = CurrentValueFrame
@@ -2284,7 +2284,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             Zip.BorderColor3 = Color3.fromRGB(255, 255, 255)
                             Zip.Position = UDim2.new((start or 0) / max, -6, -0.644999981, 0)
                             Zip.Size = UDim2.new(0, 27, 0, 18)
-                            Zip.Image = "http://www.roblox.com/asset/?id=18109956359"
+                            Zip.Image = "http://www.roblox.com/asset/?id=18119081059"
                             ZipCorner.CornerRadius = UDim.new(0, 3)
                             ZipCorner.Name = "ZipCorner"
                             ZipCorner.Parent = Zip
@@ -2414,7 +2414,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             Seperator1.Size = UDim2.new(0, 100, 0, 8)
                             Seperator2.Name = "Seperator2"
                             Seperator2.Parent = Seperator1
-                            Seperator2.BackgroundColor3 = Color3.fromRGB(66, 69, 74)
+                            Seperator2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
                             Seperator2.BorderSizePixel = 0
                             Seperator2.Position = UDim2.new(0, 0, 0, 4)
                             Seperator2.Size = UDim2.new(0, 401, 0, 1)
@@ -2489,7 +2489,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             ArrowImg.BackgroundTransparency = 1
                             ArrowImg.Position = UDim2.new(1.84974098, 0, 0.167428851, 0)
                             ArrowImg.Size = UDim2.new(0, 22, 0, 22)
-                            ArrowImg.Image = "http://www.roblox.com/asset/?id=18118854086" 
+                            ArrowImg.Image = "http://www.roblox.com/asset/?id=18118854086"  
                             ArrowImg.ImageColor3 = Color3.fromRGB(212, 212, 212)
                             DropdownFrameBtn.Name = "DropdownFrameBtn"
                             DropdownFrameBtn.Parent = DropdownFrame
@@ -2519,7 +2519,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             DropdownFrameMainOutlineCorner.Parent = DropdownFrameMainOutline
                             DropdownFrameMain.Name = "DropdownFrameMain"
                             DropdownFrameMain.Parent = DropdownTitle
-                            DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(255, 255, 0) 
+                            DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(0, 0, 100) 
                             DropdownFrameMain.BackgroundTransparency = 0.6
                             DropdownFrameMain.ClipsDescendants = true
                             DropdownFrameMain.Position = UDim2.new(0.00999999978, 0, 2.2568965, 0)
@@ -2585,7 +2585,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                 local ItemText = Instance.new("TextLabel")
                                 Item.Name = "Item"
                                 Item.Parent = DropItemHolder
-                                Item.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+                                Item.BackgroundColor3 = Color3.fromRGB(0, 0, 200)
                                 Item.Size = UDim2.new(0, 379, 0, 29)
                                 Item.AutoButtonColor = false
                                 Item.Font = Enum.Font.SourceSans
@@ -2598,7 +2598,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                 ItemCorner.Parent = Item
                                 ItemText.Name = "ItemText"
                                 ItemText.Parent = Item
-                                ItemText.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+                                ItemText.BackgroundColor3 = Color3.fromRGB(0, 0, 30)
                                 ItemText.BackgroundTransparency = 0.7
                                 ItemText.Position = UDim2.new(0.0211081803, 0, 0, 0)
                                 ItemText.Size = UDim2.new(0, 192, 0, 29)
@@ -2799,7 +2799,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             ColorSelection.BackgroundTransparency = 1
                             ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
                             ColorSelection.Size = UDim2.new(0, 18, 0, 18)
-                            ColorSelection.Image = "http://www.roblox.com/asset/?id=18110392941"
+                            ColorSelection.Image = "http://www.roblox.com/asset/?id=18119097555"
                             ColorSelection.ScaleType = Enum.ScaleType.Fit
                             Hue.Name = "Hue"
                             Hue.Parent = ColorpickerFrame
@@ -2831,7 +2831,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             HueSelection.BackgroundTransparency = 1
                             HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
                             HueSelection.Size = UDim2.new(0, 18, 0, 18)
-                            HueSelection.Image = "http://www.roblox.com/asset/?id=18110392941"
+                            HueSelection.Image = "http://www.roblox.com/asset/?id=18119097555"
                             PresetClr.Name = "PresetClr"
                             PresetClr.Parent = ColorpickerFrame
                             PresetClr.BackgroundColor3 = preset
@@ -2946,7 +2946,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             Textbox.Size = UDim2.new(0, 403, 0, 73)
                             TextboxTitle.Name = "TextboxTitle"
                             TextboxTitle.Parent = Textbox
-                            TextboxTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                            TextboxTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255) 
                             TextboxTitle.BackgroundTransparency = 1
                             TextboxTitle.Position = UDim2.new(0, 5, 0, 0)
                             TextboxTitle.Size = UDim2.new(0, 200, 0, 29)
