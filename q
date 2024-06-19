@@ -123,7 +123,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
                 MainFrame.BorderSizePixel = 0
                 MainFrame.BackgroundTransparency = 0
-                MainFrame.Image = "http://www.roblox.com/asset/?id=17860664683"
+                MainFrame.Image = "http://www.roblox.com/asset/?id=18118629756"
                 MainFrame.ClipsDescendants = true
                 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
                 MainFrame.Size = UDim2.new(0, 681, 0, 396)
