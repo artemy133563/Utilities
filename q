@@ -2141,6 +2141,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             ToggleFrameCircle.Position = UDim2.new(0.234999999, -5, 0.133000001, 0)
                             ToggleFrameCircle.Size = UDim2.new(0, 15, 0, 15)
                             ToggleFrameCircle.Image = "http://www.roblox.com/asset/?id=6035067836"
+                            ToggleFrameCircle.ImageTransparency = 1
                             ToggleFrameCircleCorner.CornerRadius = UDim.new(1, 0) 
                             ToggleFrameCircleCorner.Name = "ToggleFrameCircleCorner"
                             ToggleFrameCircleCorner.Parent = ToggleFrameCircle
