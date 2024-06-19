@@ -1,5 +1,5 @@
 local player = game:GetService("Players")
-local Blacklist = {"LARRY_ALWI"}
+local Blacklist = {"artemy133563"}
 if player.LocalPlayer.Name == Blacklist[1] then
     player.LocalPlayer:Kick("You Not In Whitelist")
 
@@ -123,9 +123,9 @@ elseif player.LocalPlayer then
                 MainFrame.Name = "MainFrame"
                 MainFrame.Parent = Discord
                 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-                MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+                MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                 MainFrame.BorderSizePixel = 0
-                MainFrame.BackgroundTransparency = 0
+                MainFrame.BackgroundTransparency = 1
                 MainFrame.Image = "http://www.roblox.com/asset/?id=18118629756"
                 MainFrame.ClipsDescendants = true
                 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
