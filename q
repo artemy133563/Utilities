@@ -141,7 +141,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 TopFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
                 TopFrame.BackgroundTransparency = 1
                 TopFrame.BorderSizePixel = 0
-                TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
+                TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0) 
                 TopFrame.Size = UDim2.new(0, 681, 0, 22)
                 TopFrameHolder.Name = "TopFrameHolder"
                 TopFrameHolder.Parent = TopFrame
@@ -158,7 +158,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 Title.Size = UDim2.new(0, 700, 0, 20)
                 Title.Font = Enum.Font.ArimoBold
                 Title.Text = text
-                Title.TextColor3 = Color3.fromRGB(0, 0, 200)
+                Title.TextColor3 = Color3.fromRGB(0, 0, 100)
                 Title.TextSize = 25
                 Title.TextXAlignment = Enum.TextXAlignment.Left
                 CloseBtn.Name = "CloseBtn"
@@ -1474,7 +1474,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                     NotificationHolderMain.Position = UDim2.new(0, 0, 0.0560000017, 0)
                     NotificationHolderMain.Size = UDim2.new(0, 681, 0, 374)
                     NotificationHolderMain.AutoButtonColor = false
-                    NotificationHolderMain.Font = Enum.Font.SourceSans
+                    NotificationHolderMain.Font = Enum.Font.SourceSans 
                     NotificationHolderMain.Text = ""
                     NotificationHolderMain.TextColor3 = Color3.fromRGB(0, 0, 0)
                     NotificationHolderMain.TextSize = 14
@@ -1486,7 +1486,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                     Notification.Name = "Notification"
                     Notification.Parent = NotificationHolderMain
                     Notification.AnchorPoint = Vector2.new(0.5, 0.5)
-                    Notification.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+                    Notification.BackgroundColor3 = Color3.fromRGB(0, 0, 100)
                     Notification.BackgroundTransparency = 0.1
                     Notification.ClipsDescendants = true
                     Notification.Position = UDim2.new(0.524819076, 0, 0.469270051, 0)
@@ -2986,7 +2986,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             TextBox.PlaceholderText = placetext
                             TextBox.Text = ""
                             TextBox.TextColor3 = Color3.fromRGB(193, 195, 197)
-                            TextBox.TextSize = 30
+                            TextBox.TextSize = 20
                             TextBox.TextXAlignment = Enum.TextXAlignment.Left
                             TextBox.Focused:Connect(
                                 function()
