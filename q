@@ -2489,7 +2489,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             ArrowImg.BackgroundTransparency = 1
                             ArrowImg.Position = UDim2.new(1.84974098, 0, 0.167428851, 0)
                             ArrowImg.Size = UDim2.new(0, 22, 0, 22)
-                            ArrowImg.Image = "http://www.roblox.com/asset/?id=18110060757"
+                            ArrowImg.Image = "http://www.roblox.com/asset/?id=18118807541" 
                             ArrowImg.ImageColor3 = Color3.fromRGB(212, 212, 212)
                             DropdownFrameBtn.Name = "DropdownFrameBtn"
                             DropdownFrameBtn.Parent = DropdownFrame
@@ -2957,7 +2957,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             TextboxTitle.TextXAlignment = Enum.TextXAlignment.Left
                             TextboxFrameOutline.Name = "TextboxFrameOutline"
                             TextboxFrameOutline.Parent = TextboxTitle
-                            TextboxFrameOutline.AnchorPoint = Vector2.new(0.5, 0.5)
+                            TextboxFrameOutline.AnchorPoint = Vector2.new(0.5, 0.5) 
                             TextboxFrameOutline.BackgroundColor3 = Color3.fromRGB(37, 40, 255)
                             TextboxFrameOutline.BackgroundTransparency = 1
                             TextboxFrameOutline.Position = UDim2.new(0.988442957, 0, 1.6197437, 0)
@@ -2986,7 +2986,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             TextBox.PlaceholderText = placetext
                             TextBox.Text = ""
                             TextBox.TextColor3 = Color3.fromRGB(193, 195, 197)
-                            TextBox.TextSize = 20
+                            TextBox.TextSize = 14
                             TextBox.TextXAlignment = Enum.TextXAlignment.Left
                             TextBox.Focused:Connect(
                                 function()
