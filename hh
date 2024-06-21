@@ -2153,7 +2153,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             Icon.BorderColor3 = Color3.fromRGB(255, 255, 255)
                             Icon.Position = UDim2.new(0, 8, 0, 8)
                             Icon.Size = UDim2.new(0, 13, 0, 13)
-                            Icon.Image = "http://www.roblox.com/asset/?id=18118404935" 
+                            Icon.Image = "http://www.roblox.com/asset/?id=18142167296"  
                             Toggle.MouseButton1Click:Connect(
                                 function()
                                     if (toggled == false) then
@@ -2179,7 +2179,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                             TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                                             {ImageTransparency = 1}
                                         ):Play()
-                                        Icon.Image = "http://www.roblox.com/asset/?id=18118482242"
+                                        Icon.Image = "http://www.roblox.com/asset/?id=18142175409"
                                         wait(0.1)
                                         TweenService:Create(
                                             Icon,
@@ -2209,7 +2209,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                             TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                                             {ImageTransparency = 1}
                                         ):Play()
-                                        Icon.Image = "http://www.roblox.com/asset/?id=18118404935"
+                                        Icon.Image = "http://www.roblox.com/asset/?id=18142167296"
                                         wait(0.1)
                                         TweenService:Create(
                                             Icon,
