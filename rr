@@ -123,7 +123,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 MainFrame.BorderSizePixel = 0
                 MainFrame.BackgroundTransparency = 0
-                MainFrame.Image = "http://www.roblox.com/asset/?id=18142085118"
+                MainFrame.Image = "http://www.roblox.com/asset/?id=18142117449"
                 MainFrame.ClipsDescendants = true
                 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
                 MainFrame.Size = UDim2.new(0, 681, 0, 396)
@@ -132,7 +132,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 BBBB.AnchorPoint = Vector2.new(0.5, 0.5)
                 BBBB.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
                 BBBB.BorderSizePixel = 0
-                BBBB.BackgroundTransparency = 0.6
+                BBBB.BackgroundTransparency = 0
                 BBBB.ClipsDescendants = true
                 BBBB.Position = UDim2.new(0.5, 0, 0.5, 0)
                 BBBB.Size = UDim2.new(0, 681, 0, 396)
