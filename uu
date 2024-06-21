@@ -2011,7 +2011,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             function()
                                 if (currentchanneltoggled ~= ChannelBtn.Name) then
                                     ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-                                    ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+                                    ChannelBtnTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
                                 end
                             end
                         )
@@ -2026,7 +2026,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                                 for i, v in next, ServerChannelHolder:GetChildren() do
                                     if (v.ClassName == "TextButton") then
                                         v.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-                                        v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+                                        v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
                                     end
                                     ServerFrame.Visible = true
                                 end
