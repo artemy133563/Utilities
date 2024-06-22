@@ -1,1 +1,1 @@
-print("xD")
+game.Players.LocalPlayer:Kick("Script Closed...")
