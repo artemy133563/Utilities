@@ -162,7 +162,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 Title.TextSize = 25
                 Title.TextXAlignment = Enum.TextXAlignment.Left
                 Tittles.Name = "Verify"
-                Tittles.Parent = MainFrame
+                Tittles.Parent = TopFrame
                 Tittles.AnchorPoint = Vector2.new(0.5, 0.5)
                 Tittles.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
                 Tittles.BorderSizePixel = 0
