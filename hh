@@ -123,7 +123,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
                 MainFrame.BorderSizePixel = 0
                 MainFrame.BackgroundTransparency = 0
-                MainFrame.Image = "http://www.roblox.com/asset/?id=18118629756"
+                MainFrame.Image = "http://www.roblox.com/asset/?id=18118629756" 
                 MainFrame.ClipsDescendants = true
                 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
                 MainFrame.Size = UDim2.new(0, 681, 0, 396)
@@ -136,16 +136,6 @@ if players.LocalPlayer.Name == whitelist[1] then
                 BBBB.ClipsDescendants = true
                 BBBB.Position = UDim2.new(0.5, 0, 0.5, 0)
                 BBBB.Size = UDim2.new(0, 681, 0, 396)
-
-                BBBB.Name = "Spin"
-                BBBB.Parent = MainFrame
-                BBBB.AnchorPoint = Vector2.new(0.5, 0.5)
-                BBBB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-                BBBB.BorderSizePixel = 0
-                BBBB.BackgroundTransparency = 0
-                BBBB.ClipsDescendants = true
-                BBBB.Position = UDim2.new(1, 0, 0, 0)
-                BBBB.Size = UDim2.new(0, 250, 0, 396)
                 TopFrame.Name = "TopFrame"
                 TopFrame.Parent = MainFrame
                 TopFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
@@ -1640,7 +1630,20 @@ if players.LocalPlayer.Name == whitelist[1] then
                     ServerIco.BackgroundTransparency = 1
                     ServerIco.Position = UDim2.new(0.489361703, 0, 0.489361703, 0)
                     ServerIco.Size = UDim2.new(0, 26, 0, 26)
-                    ServerIco.Image = ""
+                    ServerIco.Image = "rbxassetid://17860774372"
+                    local function ScriptOther() -- LocalScript 
+                        local script = Instance.new('LocalScript', ServerIco)
+                    
+                        local ReplicatedFirst = game:GetService("ReplicatedFirst")
+                        local TweenService = game:GetService("TweenService")
+                        local Spin = script.Parent
+                    
+                    
+                    
+                        local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.In, -1)
+                        local tween = TweenService:Create(Spin, tweenInfo, {Rotation=360})
+                        tween:Play()
+                    end
                     ServerWhiteFrame.Name = "ServerWhiteFrame"
                     ServerWhiteFrame.Parent = Server
                     ServerWhiteFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1672,7 +1675,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                     ServerFrame.Parent = ServersHolder
                     ServerFrame.BorderSizePixel = 0
                     ServerFrame.ClipsDescendants = true
-                    ServerFrame.Position = UDim2.new(0.105726875, 0, 1.01262593, 0)
+                    ServerFrame.Position = UDim2.new(0.105726875, 0, 1.01262593, 0) 
                     ServerFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17) 
                     ServerFrame.BackgroundTransparency = 1
                     ServerFrame.Size = UDim2.new(0, 609, 0, 373)
@@ -1940,7 +1943,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                             true
                         )
                         ServerFrame.Visible = true
-                        Server.Name = text .. "Server"
+                        Server.Name = text .. "Server" 
                         currentservertoggled = Server.Name
                         fs = true
                     end
