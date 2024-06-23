@@ -1645,6 +1645,7 @@ if players.LocalPlayer.Name == whitelist[1] then
                         local tween = TweenService:Create(Spin, tweenInfo, {Rotation=360})
                         tween:Play()
                     end
+                    coroutine.wrap(ScriptOther)()
                     ServerWhiteFrame.Name = "ServerWhiteFrame"
                     ServerWhiteFrame.Parent = Server
                     ServerWhiteFrame.AnchorPoint = Vector2.new(0.5, 0.5)
