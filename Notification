@@ -1,6 +1,6 @@
 local NotificationLibrary = {}
 
-local Notification = Instance.new("ScreenGui"); Notification.Name = "Notification"; Notification.Parent = game.CoreGui; Notification.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local GUI = Instance.new("ScreenGui"); GUI.Name = "Notification"; GUI.Parent = game.CoreGui; GUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 function NotificationLibrary:Notify(TitleText, Desc, Delay)
     local Notification = Instance.new("Frame")
@@ -11,7 +11,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	local Description = Instance.new("TextLabel")
 
 	Notification.Name = "Notification"
-	Notification.Parent = Notification
+	Notification.Parent = GUI
 	Notification.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 	Notification.BackgroundTransparency = 0.400
 	Notification.BorderSizePixel = 0
@@ -20,7 +20,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 
 	Line.Name = "Line"
 	Line.Parent = Notification
-	Line.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+	Line.BackgroundColor3 = Color3.fromRGB(241, 196, 15)
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 0.938461304, 0)
 	Line.Size = UDim2.new(0, 0, 0, 4)
@@ -30,8 +30,8 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	Warning.BackgroundTransparency = 1.000
 	Warning.Position = UDim2.new(0.0258302614, 0, 0.0897435844, 0)
 	Warning.Size = UDim2.new(0, 44, 0, 49)
-	Warning.Image = "http://www.roblox.com/asset/?id=17860774372" 
-	Warning.ImageColor3 = Color3.fromRGB(255, 255, 255)
+	Warning.Image = "rbxassetid://3944668821"
+	Warning.ImageColor3 = Color3.fromRGB(241, 196, 15)
 	Warning.ScaleType = Enum.ScaleType.Fit
 
 	UICorner.CornerRadius = UDim.new(0, 20)
@@ -39,7 +39,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 
 	Title.Name = "Title"
 	Title.Parent = Notification
-	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255) 
+	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Title.BackgroundTransparency = 1.000
 	Title.Position = UDim2.new(0.161, 0, 0.155, 0)
 	Title.Size = UDim2.new(0, 205, 0, 15)
@@ -68,6 +68,5 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	    wait(0.35)
 	    Notification:Destroy()
 end
-
 
 return NotificationLibrary
