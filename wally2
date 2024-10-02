@@ -1,3 +1,4 @@
+--gui
 
 local library = {count = 0, queue = {}, callbacks = {}, rainbowtable = {}, toggled = true, binds = {}};
 local defaults; do
@@ -479,7 +480,7 @@ local defaults; do
                 Name = 'Section';
                 BackgroundTransparency = 1;
                 Size = determinedSize;
-                BackgroundColor3 = library.options.sectncolor; 0, 255, 140
+                BackgroundColor3 = library.options.sectncolor;
                 BorderSizePixel = 0;
                 LayoutOrder = order;
                 library:Create('TextLabel', {
