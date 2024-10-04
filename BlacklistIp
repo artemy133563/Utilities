@@ -1,7 +1,8 @@
 local blacklistIPs = {
     "ODUuMTQwLjEuMTMz",
     "ODUuMTQwLjEuMTI4",
-    ""
+    "ODUuMTQwLjUuODY=",
+    "MjllYWExZDktMGFmMy00ZGQxLTk3NDUtOTNjZjJlOTA0Yjhi"
 }
 
 return blacklistIPs
