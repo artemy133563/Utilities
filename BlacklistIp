@@ -1,5 +1,5 @@
 local blacklistIPs = {
-    "",
+    "ODUuMTQwLjUuMTQ3",
     "",
     ""
 }
