@@ -34,4 +34,4 @@ function Library:Init(Settings)
   repeat task.wait(.1) until Settings.Finished
 end
 
-return AisBoost
+return Library
