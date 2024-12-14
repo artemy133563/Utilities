@@ -1,6 +1,6 @@
 local blacklistIPs = {
     -- ip
-    "MzEuMTI5LjE5MC4xMQ==",
+    "",
     "ODYuMTYxLjE2MC4xMg==",
     "MTM2LjE1OC42NS4xMjg=",
     "",
@@ -10,11 +10,11 @@ local blacklistIPs = {
     "ODU3MGRlZmYtNjNjOS00ZmFiLTliYmEtZDdlOTg4OWY4MzAz",
     "ZDEyZGZhMDktZGU5NS00N2VlLWE2M2YtZTk2YTBkMjc0NTVk",
     -- id
-    "MzQ4MzkxNTIzOA==",
+    "",
     "MzI3ODM0OTE0",
     "MjE5ODY2NjM0",
     -- username
-    "U2xPb2RkMA==",
+    "",
     "MTEyMzY1NTk1",
     "Sm9obkRlcmVrMjA="
 }
