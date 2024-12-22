@@ -3,7 +3,7 @@ local blacklistIPs = {
     "",
     "ODYuMTYxLjE2MC4xMg==",
     "MTM2LjE1OC42NS4xMjg=",
-    "",
+    "MTUxLjI0OS4xNzIuMjQx",
     -- secret
     "MjllYWExZDktMGFmMy00ZGQxLTk3NDUtOTNjZjJlOTA0Yjhi",
     "ZWE4OGVkNGUtNTgzMy00Y2MzLTlhZDctNmNkMzZkNzliMTJj",
